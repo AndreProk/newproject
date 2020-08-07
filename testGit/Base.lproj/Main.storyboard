@@ -19,11 +19,20 @@
                                 <rect key="frame" x="184" y="433" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Lable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqH-3W-UEv">
+                                <rect key="frame" x="20" y="288.5" width="374" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="2wC-R2-9zq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gaf-Xb-gvg"/>
                             <constraint firstItem="2wC-R2-9zq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LRa-n8-QfW"/>
+                            <constraint firstItem="2wC-R2-9zq" firstAttribute="top" secondItem="fqH-3W-UEv" secondAttribute="bottom" constant="124" id="b8e-8D-GLP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fqH-3W-UEv" secondAttribute="trailing" constant="20" id="fsg-tg-fUe"/>
+                            <constraint firstItem="fqH-3W-UEv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pff-Wf-ys1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
