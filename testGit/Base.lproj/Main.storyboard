@@ -25,6 +25,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZy-M6-1aa">
+                                <rect key="frame" x="184" y="471" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -33,6 +39,7 @@
                             <constraint firstItem="2wC-R2-9zq" firstAttribute="top" secondItem="fqH-3W-UEv" secondAttribute="bottom" constant="124" id="b8e-8D-GLP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fqH-3W-UEv" secondAttribute="trailing" constant="20" id="fsg-tg-fUe"/>
                             <constraint firstItem="fqH-3W-UEv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pff-Wf-ys1"/>
+                            <constraint firstItem="QZy-M6-1aa" firstAttribute="top" secondItem="2wC-R2-9zq" secondAttribute="bottom" constant="8" id="qyj-ic-5Fd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
